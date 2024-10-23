@@ -1,0 +1,21 @@
+.hover-zoom-container {
+    display: flex;
+    position: relative;
+  }
+  
+  .image-container {
+    overflow: hidden;
+  }
+  
+  .main-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .zoomed-image {
+    border: 1px solid #ccc;
+    display: none;
+    background-repeat: no-repeat;
+  }
+  
